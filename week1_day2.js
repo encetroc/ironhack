@@ -46,7 +46,7 @@ do {
     j = j + 1
 } while (j < 0) */
 
-let fruits = ['orange', 'banana', 'avocado', 'kiwi', 'mango']
+let fruits = ['orange', 'banana', 'avocado', 'kiwi', 'mango', 'grapes']
 
 for (let fruit of fruits) {
     console.log(fruit)

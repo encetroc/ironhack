@@ -36,4 +36,4 @@ stuffPlaceholder = 1 + 2
 
 // ...
 
-stuffPlaceholder = 'foo bar'
+stuffPlaceholder = 'foo foo'
