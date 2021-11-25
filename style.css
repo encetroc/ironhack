@@ -124,3 +124,133 @@ input[name="age"] {
     width: 50%;
   }
 } */
+
+/* .animationDiv1 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+  animation: 
+    divAnim1
+    3s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    2s
+    infinite
+    both;
+  animation-name: divAnim1;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+} */
+
+/* @keyframes divAnim1 {
+  0% {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+  }
+
+  50% {
+    width: 300px;
+    height: 400px;
+    background-color: blueviolet;
+  }
+
+  100% {
+    width: 150px;
+    height: 100px;
+    background-color: cornflowerblue;
+  }
+} */
+
+/* .boxModel1 {
+  width: 100px;
+  height: 50px;
+  border: 10px solid gray;
+  border-width: 2px;
+  border-radius: 0px;
+  margin: 20px;
+  padding: 20px;
+  animation: 
+    myAnimation1
+    2s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    1s
+    infinite
+    both
+    ;
+} */
+
+/* @keyframes myAnimation1 {
+  0% {
+    border-radius: 0px;
+    padding: 20px;
+    margin: 20px;
+  }
+  50% {
+    border-radius: 30px;
+    padding: 50px;
+  }
+  80% {
+    border-radius: 15px;
+    margin: 10px;
+  }
+  100% {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 0px;
+  }
+} */
+
+/* .container {
+  width: 120px;
+  height: 100px;
+  background-color: cyan;
+}
+
+.item1 {
+  background-color: red;
+  box-sizing: border-box;
+  width: 120px;
+  border: 2px solid gray;
+  padding: 10px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerFlex {
+  background-color: gray;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.item {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.item1 {
+  background-color: blueviolet;
+}
+
+.item2 {
+  background-color: brown;
+}
+
+.item3 {
+  background-color: burlywood;
+}
+
+.item4 {
+  background-color: coral;
+}
