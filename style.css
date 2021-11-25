@@ -1,0 +1,126 @@
+/* h1 {
+  font-size: 22px;
+  color: red;
+  background-color: yellow;
+}
+
+h2 {
+  font-size: 18px;
+  color: aliceblue;
+  background-color: aqua;
+}
+
+h3 {
+  font-size: 16px;
+  color: bisque;
+  background-color: blueviolet;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed;
+  margin-bottom: 10px;
+}
+
+#divId1 {
+  background-color: blueviolet;
+}
+
+#divId1 > span {
+  color: aliceblue;
+}
+
+#divId2 {
+  background-color: hsl(150, 100%, 90%);
+}
+
+.divClass2 > span {
+  background-color: blue;
+  color: antiquewhite;
+}
+
+.divClass2 > span > p {
+  background-color: brown;
+}
+
+.divClass3 {
+  background-color: #000;
+  color: white;
+}
+
+.divClass3 input {
+  width: 100%;
+  height: 50px;
+  background-color: burlywood;
+}
+
+li {
+  width: 100px;
+  height: 30px;
+  border: 1px solid;
+  background-color: burlywood;
+}
+
+li + button {
+  margin-top: 10px;
+}
+
+div, span {
+  font-weight: 700;
+}
+
+input[name="age"] {
+  background-color: cadetblue;
+}
+
+.mylist {
+  background-color: crimson;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: chocolate;
+} */
+
+/* .myDiv1 {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  transition: width 1s cubic-bezier(0.165, 0.84, 0.44, 1); 
+}
+
+.myDiv1:hover {
+  width: 200px;
+} */
+
+/* .animatedDiv1 {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: myslidein;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes myslidein {
+  0% {
+    background-color: ref;
+    width: 100%;
+  }
+
+  50% {
+    background-color: blueviolet;
+    width: 25%;
+  }
+
+  100% {
+    background-color: red;
+    width: 50%;
+  }
+} */
