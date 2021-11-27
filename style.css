@@ -230,12 +230,18 @@ input[name="age"] {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-content: center;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  animation: 
+    flexAnimation
+    2s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    1s
+    infinite
+    both;
 }
 
 .item {
-  width: 50px;
+  flex-basis: 100px;
   height: 50px;
   border: 1px solid black;
   margin: 10px;
@@ -243,16 +249,34 @@ input[name="age"] {
 
 .item1 {
   background-color: blueviolet;
+  flex: 3 3 50px;
 }
 
 .item2 {
   background-color: brown;
+  flex: 2 1 100px;
 }
 
 .item3 {
   background-color: burlywood;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .item4 {
   background-color: coral;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+@keyframes flexAnimation {
+  0% {
+    align-items: flex-start;
+  }
+  50% {
+    align-items: flex-end
+  }
+  100% {
+    align-items: flex-start;
+  }
 }
