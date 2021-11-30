@@ -1,5 +1,7 @@
 .itemList .item {
   background-color: aqua;
+
+  cursor: pointer;
 }
 
 div > .item {
@@ -9,4 +11,8 @@ div > .item {
 .bgRed {
   background-color: brown;
   color: aliceblue;
+}
+
+.completedItem {
+  text-decoration: line-through
 }
