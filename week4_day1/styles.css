@@ -1,0 +1,12 @@
+.itemList .item {
+  background-color: aqua;
+}
+
+div > .item {
+  background-color: blanchedalmond;
+}
+
+.bgRed {
+  background-color: brown;
+  color: aliceblue;
+}
