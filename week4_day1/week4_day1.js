@@ -4,20 +4,24 @@ const mydiv = document.querySelector('div > .item')
 
 const mylist = document.querySelector('.itemList')
 
-const myElement = document.getElementsByTagName('div')
+const myBtn = document.querySelector('.addBtn')
 
-const div1 = document.querySelector('#div1')
+const myInput = document.querySelector('.input')
 
-mylist.className = 'bgRed'
+/* const newText = document.createTextNode('item 4')
+newItem.appendChild(newText) */
 
-const divId = div1.getAttribute('id')
+const addListitem = (itemText) => {
+  const newItem = document.createElement('li')
+  newItem.className = 'item'
+  newItem.innerHTML = itemText
+  mylist.appendChild(newItem)
+}
 
-const myInput = document.querySelector('input')
+myBtn.onclick = () => {
+  if (myInput.value === '') return 
+  addListitem(myInput.value)
+  myInput.value = ''
+}
 
-myInput.getAttribute('placeholder')
-
-myInput.setAttribute('placeholder', 'hello world')
-
-myInput.removeAttribute('placeholder')
-
-console.log(myInput.getAttribute('placeholder'))
+console.log(myInput.value)
