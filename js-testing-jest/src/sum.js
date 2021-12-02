@@ -14,3 +14,13 @@ const sum = (array) => {
 };
 
 module.exports = sum;
+
+/**
+ * write a multiplication funtion
+ * const mult = ([1, 2, 3]) => 6
+ */
+
+/**
+ * write a string interpolation function
+ * const inString = (['my', 'name', 'is', 'john']) => 'my name is john'
+ */
