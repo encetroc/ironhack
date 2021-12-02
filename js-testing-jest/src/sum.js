@@ -22,5 +22,5 @@ module.exports = sum;
 
 /**
  * write a string interpolation function
- * const inString = (['my', 'name', 'is', 'john']) => 'my name is john'
+ * const intString = (['my', 'name', 'is', 'john']) => 'my name is john'
  */
